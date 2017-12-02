@@ -1,0 +1,55 @@
+Lint/EndAlignment:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: False
+
+Layout/AlignArray:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/IndentationWidth:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/NumericLiteralPrefix:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%w': '{}'
+    '%W': '{}'
+    '%i': '{}'
+
+Style/SafeNavigation:
+  Enabled: true
+  Severity: warning
+
+Metrics/LineLength:
+  Severity: refactor
+  Max: 180
+
+Metrics/ClassLength:
+  Severity: refactor
+  Max: 300
+
+Metrics/MethodLength:
+  Max: 30
+  Severity: refactor
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+  Severity: refactor
+
+Metrics/PerceivedComplexity:
+  Severity: refactor
+
+Metrics/AbcSize:
+  Severity: refactor
+
+Metrics/ParameterLists:
+  Severity: refactor

@@ -1,0 +1,5 @@
+#!/bin/bash
+export RAILS_ENV=production
+export AWS_CODE_USER=aws_code
+export AWS_CODE_PASSWORD=password
+export SECRET_KEY_BASE=7fe212e91a5c580a612f492717441fa8acc9535b0f52b26a47e5934d95563f9742757c47c9a008bb1dfe5ed4a7064b62a05ffbbd6733c106271a9c73010b21ce

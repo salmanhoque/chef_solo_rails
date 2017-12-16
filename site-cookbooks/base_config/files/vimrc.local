@@ -1,0 +1,24 @@
+" Basic vim settings
+syntax on
+set number ruler smartcase showmatch list showmatch
+set laststatus=2
+set listchars=eol:¬,tab:··
+set autoindent
+set title
+set scrolloff=5
+set paste
+set cursorline
+set mouse=a
+set backspace=indent,eol,start
+set foldmethod=indent
+set nofoldenable
+set clipboard=unnamed
+set tabstop=2 shiftwidth=2 expandtab
+
+" Vim keymap
+let mapleader = ','
+noremap <leader>w :w<cr>
+noremap <leader>q :q<cr>
+noremap <leader>tn :tabnew<Space>
+noremap <leader>t<Left> :tabprev<cr>
+noremap <leader>t<Right> :tabnext<cr>
